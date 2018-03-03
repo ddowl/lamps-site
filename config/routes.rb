@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  root 'application#home'
 
-  root 'home#index'
+  get '/home', to: 'application#home'
+  get '/about', to: 'application#about'
+  get '/contact', to: 'application#contact'
 end
