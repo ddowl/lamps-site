@@ -1,5 +1,7 @@
 # README
 
+This is a small web app that serves thelampsband.com
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
