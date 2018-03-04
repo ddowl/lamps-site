@@ -7,6 +7,15 @@ class ApplicationController < ActionController::Base
   def about
   end
 
+  def events
+  end
+
+  def media
+  end
+
+  def merch
+  end
+
   def contact
   end
 end
