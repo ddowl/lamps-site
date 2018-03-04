@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get '/media', to: 'application#media'
   get '/merch', to: 'application#merch'
   get '/contact', to: 'application#contact'
+
+  get '*unmatched_route', to: 'application#not_found'
 end
